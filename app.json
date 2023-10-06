@@ -1,0 +1,52 @@
+{
+  "name": "SESSION ZE ↺",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+  "logo": "https://telegra.ph/file/7065a4c7cbedef8befdb9.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/Source-Ze/SESSIONv2",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "لا تغيير هذة القيمة",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "ضع ايبي ايدي احصل علية من my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "ضع ايبي هاش احصل علية من my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "ضع ايدي مالك البوت",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_DB_URI": {
+      "description": "ضع كود مونجو احصل علية من cloud.mongodb.com",
+      "required": true,
+      "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority"
+    },
+    "MUST_JOIN": {
+      "description": "ضع يوزر جروب للبوت.(without @)",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "ارسل توكن البوت احصل علية من @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
+}
