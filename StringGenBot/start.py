@@ -27,7 +27,7 @@ async def start(bot: Client, msg: Message):
                 ],
                 [
                     InlineKeyboardButton("🔱 𝐒𝐎𝐔𝐑𝐂𝐄 • 𝐙𝐄 🔱", url="https://t.me/UI_XB"),
-                    InlineKeyboardButton("𝒅𝒆𝒗 𝒎𝒐𝒅𝒚️", user_id=6509622797)
+                    InlineKeyboardButton("𝒅𝒆𝒗 𝒎𝒐𝒅𝒚️", user_id=6673736816)
                 ]
             ]
         ),
