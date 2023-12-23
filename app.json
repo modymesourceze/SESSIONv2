@@ -1,7 +1,7 @@
 {
   "name": "SESSION ZE ↺",
   "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
-  "logo": "https://telegra.ph/file/7065a4c7cbedef8befdb9.jpg",
+  "logo": "https://telegra.ph/file/c4f9c850312c8891385a9.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -11,7 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/Source-Ze/SESSIONv2",
+  "repository": "https://github.com/modymesourceze/SESSION",
   "env": {
     "ENVIRONMENT": {
       "description": "لا تغيير هذة القيمة",
@@ -21,17 +21,17 @@
     "API_ID": {
       "description": "ضع ايبي ايدي احصل علية من my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "25281175"
     },
     "API_HASH": {
       "description": "ضع ايبي هاش احصل علية من my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "6d99cb2b60a2c519fc1f99bd19565730"
     },
     "OWNER_ID": {
       "description": "ضع ايدي مالك البوت",
       "required": true,
-      "value": ""
+      "value": "65818963067"
     },
     "MONGO_DB_URI": {
       "description": "ضع كود مونجو احصل علية من cloud.mongodb.com",
@@ -41,7 +41,7 @@
     "MUST_JOIN": {
       "description": "ضع يوزر جروب للبوت.(without @)",
       "required": true,
-      "value": ""
+      "value": "Source_Ze"
     },
     "BOT_TOKEN": {
       "description": "ارسل توكن البوت احصل علية من @BotFather",
